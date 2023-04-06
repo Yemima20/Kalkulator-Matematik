@@ -71,7 +71,8 @@ main {
 }
 
 img {
-    margin: 0 20px 20px 40px 20px;
+    width: 100%;
+    height: auto;
 }
 
 .container1 {
