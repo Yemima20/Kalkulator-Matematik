@@ -141,14 +141,14 @@ button[type=reset] {
 @media screen and (min-width: 400px){
 
 main {
-    margin: 35px 50px;
+    margin: 35px 20px;
 
 }
 
 .cards {
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 8px 13px 1px #f7a76c94;
     background-color: #F7A76C;
