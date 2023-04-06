@@ -3,6 +3,7 @@ const pTri1 = document.getElementById("perimeter-triangle1");
 const pTri2 = document.getElementById("perimeter-triangle2");
 const pTri3 = document.getElementById("perimeter-triangle3");
 const submitBtn1 = document.getElementById("submit-button");
+// const reset1 = document.getElementById("reset1");
 const result1 = document.getElementById("result1");
 const submit1 = document.getElementById("submit1");
 
@@ -24,7 +25,7 @@ const calPerimeter1 = () => {
 
     submit1.textContent = "K = " + sum1;
   });
-
+  
 
 // luas segitiga
 const aTri1 = document.getElementById("area-triangle1");
