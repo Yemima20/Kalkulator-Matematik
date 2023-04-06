@@ -19,8 +19,8 @@ const calPerimeter1 = () => {
 
   submitBtn1.addEventListener("click", (event) => {
     event.preventDefault();
-    const sum1 = parseInt(pTri1.value) + parseInt(pTri2.value) + 
-    parseInt(pTri3.value);
+    const sum1 = parseFloat(pTri1.value) + parseFloat(pTri2.value) + 
+    parseFloat(pTri3.value);
 
     submit1.textContent = "K = " + sum1;
   });
@@ -45,7 +45,7 @@ const calArea1 = () => {
 
   submitBtn2.addEventListener("click", (event) => {
     event.preventDefault();
-    const area1 = 0.5 * parseInt(aTri1.value) * parseInt(aTri2.value);
+    const area1 = 0.5 * parseFloat(aTri1.value) * parseFloat(aTri2.value);
     submit2.textContent = "L = " + area1;
   });
 
@@ -68,7 +68,7 @@ const calPerimeter2 = () => {
 
   submitBtn3.addEventListener("click", (event) => {
     event.preventDefault();
-    const peripero = 2 * (parseInt(pPara1.value) + parseInt(pPara2.value));
+    const peripero = 2 * (parseFloat(pPara1.value) + parseFloat(pPara2.value));
     submit3.textContent = "K = " + peripero;
   });
 
@@ -91,6 +91,6 @@ const calArea2 = () => {
 
   submitBtn4.addEventListener("click", (event) => {
     event.preventDefault();
-    const apero = parseInt(aPara1.value) * parseInt(aPara2.value);
+    const apero = parseFloat(aPara1.value) * parseFloat(aPara2.value);
     submit4.textContent = "L = " + apero;
   });

@@ -137,6 +137,12 @@ button[type=reset] {
     margin-inline-start: 92%;
 }
 
+@media screen and (min-width: 400px) {
+    main {
+        margin: 35px 20px;
+    
+    } 
+} 
 
 /* footer */
 footer {
